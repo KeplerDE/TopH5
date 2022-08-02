@@ -42,17 +42,18 @@ https://templatemo.com/tm-534-parallo
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item {% if "/home/" in request.path or request.path ==  "/" %}active{% endif %}">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="{% url 'home' %}">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="{% url 'home' %}">Home{% if "/home/" in request.path %} <span class="sr-only">(current)</span>{% endif %}</a>
                     </li>
-                    <li class="nav-item">
+                  
+                    <li class="nav-item {% if "/about/" in request.path %}active{% endif %}">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="{% url 'about' %}">About</a>
+                      <a class="nav-link" href="{% url 'about' %}">About{% if "/about/" in request.path %} <span class="sr-only">(current)</span>{% endif %}</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item {% if "/services/" in request.path %}active{% endif %}">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="{% url 'services' %}">Services</a>
+                      <a class="nav-link" href="{% url 'services' %}">Services{% if "/about/" in request.path %} <span class="sr-only">(current)</span>{% endif %}</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
