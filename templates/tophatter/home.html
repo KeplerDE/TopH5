@@ -44,15 +44,15 @@ https://templatemo.com/tm-534-parallo
                   <ul class="navbar-nav">
                     <li class="nav-item active">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="{% url 'home' as url %}">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="{% url '/about' as url %}">About</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="services.html">Services</a>
+                      <a class="nav-link" href="{% url 'services' as url %}">Services</a>
                     </li>
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>

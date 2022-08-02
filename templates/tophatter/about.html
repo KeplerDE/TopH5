@@ -1,3 +1,7 @@
+{% load static %}
+
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,9 +11,9 @@
     <title>Parallo - About Page</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-    <link rel="stylesheet" href="../portfolio/static/css/all.min.css" />
-    <link rel="stylesheet" href="../portfolio/static/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../portfolio/static/css/templatemo-style.css" />
+    <link rel="stylesheet" href="{% static "css/all.min.css" %}" />
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}" />
+    <link rel="stylesheet" href="{% static "css/templatemo-style.css" %}" />
   </head>
   <body id="aboutPage">
     <div class="parallax-window" data-parallax="scroll" data-image-src="img/bg-01.jpg">
@@ -41,7 +45,7 @@
                   <ul class="navbar-nav">
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="index.html"
+                      <a class="nav-link" href="home.html"
                         >Home</a
                       >
                     </li>
@@ -182,8 +186,8 @@
       <!-- .container-fluid -->
     </div>
 
-    <script src="../portfolio/static/js/jquery.min.js"></script>
-    <script src="../portfolio/static/js/parallax.min.js"></script>
-    <script src="../portfolio/static/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/parallax.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
   </body>
 </html>
