@@ -7,9 +7,9 @@
     <title>Parallo - Services</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-    <link rel="stylesheet" href="../portfolio/static/css/all.min.css" />
-    <link rel="stylesheet" href="../portfolio/static/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../portfolio/static/css/templatemo-style.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
   </head>
 <!--
 Parallo Template
@@ -46,7 +46,7 @@ https://templatemo.com/tm-534-parallo
                   <ul class="navbar-nav">
                     <li class="nav-item">
                       <div class="tm-nav-link-highlight"></div>
-                      <a class="nav-link" href="home.html"
+                      <a class="nav-link" href="index.html"
                         >Home</a
                       >
                     </li>
@@ -185,9 +185,9 @@ https://templatemo.com/tm-534-parallo
       <!-- .container-fluid -->
     </div>
 
-    <script src="../portfolio/static/js/jquery.min.js"></script>
-    <script src="../portfolio/static/js/parallax.min.js"></script>
-    <script src="../portfolio/static/js/bootstrap.min.js"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/parallax.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
     <script>
         $(function(){
             $('.tabgroup > div').hide();
