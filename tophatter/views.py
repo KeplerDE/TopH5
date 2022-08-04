@@ -11,3 +11,10 @@ def about(request):
 
 def services(request):
     return render(request, './tophatter/services.html')
+
+def contact(request):
+    return render(request, './tophatter/contact.html')
+
+
+def story(request):
+    return render(request, './tophatter/story.html')
