@@ -5,12 +5,12 @@ def home(request):
     return render(request, './tophatter/home.html')
 
 
-def about(request):
-    return render(request, './tophatter/about.html')
+def registry(request):
+    return render(request, './tophatter/registry.html')
 
 
-def services(request):
-    return render(request, './tophatter/services.html')
+def news(request):
+    return render(request, './tophatter/news.html')
 
 def contact(request):
     return render(request, './tophatter/contact.html')

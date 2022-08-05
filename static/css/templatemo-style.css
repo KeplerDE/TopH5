@@ -74,7 +74,7 @@ small {
 }
 
 .tm-brand-icon {
-  width: 79px;
+  width: 63px;
   height: 77px;
   display: flex;
   align-items: center;
@@ -91,7 +91,7 @@ small {
 }
 
 /* Nav */
-.tm-navbar {/*   padding: 19px 63px; */max-width: 840px;min-height: 120px;justify-content:;}
+.tm-navbar {/*   padding: 19px 63px; */max-width: 840px;min-height: 120px;justify-content:center;}
 
 .tm-navbar .navbar-nav {
   width: 100%;
@@ -278,7 +278,7 @@ small {
   max-width: 1230px;
   margin-left: auto;
   margin-right: auto;
-  flex-direction:;
+  /*flex-direction:;*/
 }
 
 .tm-call-to-action-image {
@@ -373,7 +373,7 @@ p {
 .tm-about-title-hr {
   border-top-color: black;
   max-width: 450px;
-  margin-bottom:;
+  /*margin-bottom:;*/
 }
 
 .tm-bg-black-transparent {
@@ -433,8 +433,8 @@ p {
   margin-right: 30px;
   border-radius: 50%;
   border: 1px solid;
-  width:  120px;
-  height: 120px;
+  width:  100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
